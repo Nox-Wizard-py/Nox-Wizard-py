@@ -2,6 +2,8 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Nox-Wizard-py&color=6C5CE7&style=for-the-badge&label=PROFILE+VIEWS)
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6C5CE7&height=200&section=header&text=Nox%20Wizard&fontSize=50&fontColor=ffffff&animation=fadeIn" width="100%"/>
+
 # Hey, I'm Nox 👋
 
 <p align="center">
@@ -27,13 +29,9 @@ I love building clean, efficient, and impactful projects. Currently exploring **
 
 ---
 
-## 💻 Tech Stack
+## 💻 Techs I Mastered
 
-| Frontend | Backend | Languages | Databases | Tools |
-|----------|---------|-----------|-----------|-------|
-| ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) | ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white) |
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) | ![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) |
-| | | ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white) | | ![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white) |
+[![Skills](https://skillicons.dev/icons?i=kotlin,python,js,html,typescript,css,react,nodejs,java,rust,vscode,flask,mongodb,git,docker,android&theme=dark)](https://skillicons.dev)
 
 ---
 
@@ -69,3 +67,9 @@ I love building clean, efficient, and impactful projects. Currently exploring **
 ### ⚡ Fun Fact
 
 🏏 I'm a cricket enthusiast and love building projects that make life easier!
+
+<div align="center">
+  
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6C5CE7&height=100&section=footer" width="100%"/>
+
+</div>
