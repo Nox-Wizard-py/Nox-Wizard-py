@@ -1,7 +1,20 @@
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=Nox-Wizard-py&color=6C5CE7&style=for-the-badge&label=PROFILE+VIEWS)
+
 # Hey, I'm Nox 👋
+
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6C5CE7&center=true&vCenter=true&width=435&lines=She+Cooked+Me+!!" alt="Typing SVG" />
+  </a>
+</p>
+
 **Full-stack Developer | Python & JavaScript | Open-source Enthusiast**
 
 I love building clean, efficient, and impactful projects. Currently exploring **web development, automation, and open-source contributions**.
+
+</div>
 
 ---
 
@@ -33,6 +46,12 @@ I love building clean, efficient, and impactful projects. Currently exploring **
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nox-Wizard-py&layout=compact&theme=radical&hide_border=true)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=Nox-Wizard-py&theme=radical&hide_border=true)](https://git.io/streak-stats)
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Nox-Wizard-py&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=Nox-Wizard-py&theme=radical&no-frame=true&row=1&margin-w=8)
+
+![Snake animation](https://raw.githubusercontent.com/Nox-Wizard-py/Nox-Wizard-py/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
