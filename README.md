@@ -51,6 +51,12 @@ I love building clean, efficient, and impactful projects. Currently exploring **
 
 ![Snake animation](https://raw.githubusercontent.com/Nox-Wizard-py/Nox-Wizard-py/output/github-contribution-grid-snake-dark.svg)
 
+<p align="center">
+  <a href="https://github.com/PramudithaN/git-tulkun">
+    <img src="https://raw.githubusercontent.com/Nox-Wizard-py/Nox-Wizard-py/output/tulkun/tulkun.gif" width="640" alt="Nox-Wizard-py's git-tulkun" />
+  </a>
+</p>
+
 </div>
 
 ---
