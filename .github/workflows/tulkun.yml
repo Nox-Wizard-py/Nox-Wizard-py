@@ -1,15 +1,52 @@
-name: Update Tulkun
+
+name: Update Profile Animations
 
 on:
-  schedule: [{ cron: "0 0 * * *" }]
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
-  push: { branches: [main] }
+  push:
+    branches: [main]
 
 permissions:
   contents: write
 
+concurrency:
+  group: profile-animations
+  cancel-in-progress: false
+
 jobs:
-  tulkun:
+  generate:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: PramudithaN/git-tulkun@v1
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Generate contribution snake
+      - name: Generate Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Nox-Wizard-py
+          outputs: |
+            public/github-contribution-grid-snake.svg
+            public/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # Generate Tulkun without publishing it independently
+      - name: Generate Tulkun
+        uses: PramudithaN/git-tulkun@v1
+        with:
+          view: side
+          canon: "false"
+          output-dir: public/tulkun
+          commit: "false"
+
+      # Publish both animations together
+      - name: Deploy animations
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: public
+          commit_message: "chore: update profile animations"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
