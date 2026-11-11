@@ -39,17 +39,20 @@ I love building clean, efficient, and impactful projects. Currently exploring **
 
 <div align="center">
 
-![Nox's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nox-Wizard-py&show_icons=true&theme=radical&hide_border=true)
+<!-- GitHub General Stats (via Statically / Anurag's reliable fallback endpoint) -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nox-Wizard-py&theme=radical" alt="Top Languages" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nox-Wizard-py&layout=compact&theme=radical&hide_border=true)
+<br/><br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Nox-Wizard-py&theme=radical&hide_border=true)](https://git.io/streak-stats)
+<!-- Working Streak Stats -->
+<a href="https://streak-stats.demolab.com?user=Nox-Wizard-py">
+  <img src="https://streak-stats.demolab.com?user=Nox-Wizard-py&theme=radical&hide_border=true&mode=daily" alt="GitHub Streak" />
+</a>
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Nox-Wizard-py&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<br/><br/>
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=Nox-Wizard-py&theme=radical&no-frame=true&row=1&margin-w=8)
-
-![Snake animation](https://raw.githubusercontent.com/Nox-Wizard-py/Nox-Wizard-py/output/github-contribution-grid-snake-dark.svg)
+<!-- Snake animation -->
+<img src="https://raw.githubusercontent.com/Nox-Wizard-py/Nox-Wizard-py/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 
 <p align="center">
   <a href="https://github.com/PramudithaN/git-tulkun">
@@ -75,7 +78,5 @@ I love building clean, efficient, and impactful projects. Currently exploring **
 🏏 I'm a cricket enthusiast and love building projects that make life easier!
 
 <div align="center">
-  
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6C5CE7&height=100&section=footer" width="100%"/>
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C5CE7&height=100&section=footer" width="100%"/>
 </div>
