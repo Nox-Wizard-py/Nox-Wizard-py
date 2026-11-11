@@ -26,50 +26,59 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Generate contribution Snake
+      # 2. Generate GitHub contribution Snake
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: Nox-Wizard-py
           outputs: |
-            public/github-contribution-grid-snake.svg
-            public/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # 3. Generate Tulkun
+      # 3. Generate Tulkun independently
       - name: Generate Tulkun
         uses: PramudithaN/git-tulkun@v1
         with:
+          login: Nox-Wizard-py
           view: side
+          window: annual
           canon: "false"
           output-dir: tulkun
           commit: "false"
 
-      # 4. Prepare combined deployment directory
+      # 4. Create a fresh deployment directory
       - name: Prepare deployment directory
         run: |
-          mkdir -p public/tulkun
-          cp -a tulkun/. public/tulkun/
+          mkdir -p site/tulkun
 
-      # 5. Verify generated files
+          # Copy Snake animations
+          cp dist/github-contribution-grid-snake.svg site/
+          cp dist/github-contribution-grid-snake-dark.svg site/
+
+          # Copy Tulkun assets
+          cp -a tulkun/. site/tulkun/
+
+      # 5. Verify all generated assets
       - name: Verify generated animations
         run: |
-          echo "Checking Snake files..."
-          test -s public/github-contribution-grid-snake.svg
-          test -s public/github-contribution-grid-snake-dark.svg
+          echo "Checking Snake..."
+          test -s site/github-contribution-grid-snake.svg
+          test -s site/github-contribution-grid-snake-dark.svg
 
-          echo "Checking Tulkun files..."
-          test -s public/tulkun/tulkun.gif
-          test -s public/tulkun/tulkun.png
-          test -s public/tulkun/share-card.png
+          echo "Checking Tulkun..."
+          test -s site/tulkun/tulkun.gif
+          test -s site/tulkun/tulkun.png
+          test -s site/tulkun/share-card.png
 
-          echo "All animation files generated successfully!"
+          echo "All assets verified!"
+          find site -type f
 
-      # 6. Deploy everything together
+      # 6. Deploy everything to output branch
       - name: Deploy animations
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
-          build_dir: public
+          build_dir: site
           commit_message: "chore: update profile animations"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
