@@ -6,7 +6,8 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
-    branches: [main]
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -17,13 +18,15 @@ concurrency:
 
 jobs:
   generate:
+    name: Generate Profile Animations
     runs-on: ubuntu-latest
 
     steps:
+      # 1. Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Generate contribution snake
+      # 2. Generate contribution Snake
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
@@ -32,16 +35,36 @@ jobs:
             public/github-contribution-grid-snake.svg
             public/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Generate Tulkun without publishing it independently
+      # 3. Generate Tulkun
       - name: Generate Tulkun
         uses: PramudithaN/git-tulkun@v1
         with:
           view: side
           canon: "false"
-          output-dir: public/tulkun
+          output-dir: tulkun
           commit: "false"
 
-      # Publish both animations together
+      # 4. Prepare combined deployment directory
+      - name: Prepare deployment directory
+        run: |
+          mkdir -p public/tulkun
+          cp -a tulkun/. public/tulkun/
+
+      # 5. Verify generated files
+      - name: Verify generated animations
+        run: |
+          echo "Checking Snake files..."
+          test -s public/github-contribution-grid-snake.svg
+          test -s public/github-contribution-grid-snake-dark.svg
+
+          echo "Checking Tulkun files..."
+          test -s public/tulkun/tulkun.gif
+          test -s public/tulkun/tulkun.png
+          test -s public/tulkun/share-card.png
+
+          echo "All animation files generated successfully!"
+
+      # 6. Deploy everything together
       - name: Deploy animations
         uses: crazy-max/ghaction-github-pages@v4
         with:
