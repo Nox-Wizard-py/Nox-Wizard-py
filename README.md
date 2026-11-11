@@ -51,9 +51,26 @@ I love building clean, efficient, and impactful projects. Currently exploring **
 
 <br/><br/>
 
-<!-- Snake animation -->
-<img src="https://raw.githubusercontent.com/Nox-Wizard-py/Nox-Wizard-py/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+<!-- Galaga animation -->
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/Nox-Wizard-py/Nox-Wizard-py/output/galaga-contribution-graph-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/Nox-Wizard-py/Nox-Wizard-py/output/galaga-contribution-graph.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/Nox-Wizard-py/Nox-Wizard-py/output/galaga-contribution-graph.svg"
+      alt="Nox Wizard's Galaga contribution animation"
+      width="100%"
+    />
+  </picture>
+</p>
 
+<!-- Tulkun Animation -->
 <p align="center">
   <a href="https://github.com/PramudithaN/git-tulkun">
     <img src="https://raw.githubusercontent.com/Nox-Wizard-py/Nox-Wizard-py/output/tulkun/tulkun.gif" width="640" alt="Nox-Wizard-py's git-tulkun" />
