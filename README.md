@@ -29,10 +29,11 @@ I love building clean, efficient, and impactful projects. Currently exploring **
 
 ---
 
-## 💻 Techs I Mastered
-
-[![Skills](https://skillicons.dev/icons?i=kotlin,python,js,html,typescript,css,react,nodejs,java,rust,vscode,flask,mongodb,git,docker,android&theme=dark)](https://skillicons.dev)
-
+| Domain | Languages & Tools |
+| :--- | :--- |
+| **Android Development** | <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,gradle&theme=dark" height="40" alt="Android Stack" /> |
+| **Windows Development** | <img src="https://skillicons.dev/icons?i=cpp,cmake,visualstudio,vscode&theme=dark" height="40" alt="Windows Stack" /> |
+| **Web Development** | <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind,vite,nodejs,express&theme=dark" height="40" alt="Web Stack" /> |
 ---
 
 ## 📈 GitHub Stats
