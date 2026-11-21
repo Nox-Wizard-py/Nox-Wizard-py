@@ -24,16 +24,19 @@ I love building clean, efficient, and impactful projects. Currently exploring **
 
 - 🎵 **[Resonix](https://github.com/Nox-Wizard-py/Resonix)** – Personalised YouTube Music client with Material 3 design & infinite customizations | `Kotlin, Jetpack Compose`
 - 🌐 **[Musical Chair Audio Player](https://github.com/Nox-Wizard-py/Musical-Chair)** – Completely Unbiased Music Player for the Musical Chairs Game | `HTML, JavaScript`
-- 🔊 **[BeatSync](https://github.com/Nox-Wizard-py/beatsync.gg)** – High-precision multi-device audio playback & spatial audio | `TypeScript`
+- 🔊 **[LastWave](https://github.com/Clash-Projects/LastWave-Native)** – Android Youtube client with Loseless quality(Contributing FT) | `Kotlin, Jetpack Compose`
 - 🍽️ **[Restaurant Landing Page](https://github.com/Nox-Wizard-py/Restaurant-Landing-Page)** – Modern restaurant landing page | `React, Vite, Tailwind CSS`
 
 ---
 
+
+## Skills
 | Domain | Languages & Tools |
 | :--- | :--- |
-| **Android Development** | <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,gradle&theme=dark" height="40" alt="Android Stack" /> |
-| **Windows Development** | <img src="https://skillicons.dev/icons?i=cpp,cmake,visualstudio,vscode&theme=dark" height="40" alt="Windows Stack" /> |
-| **Web Development** | <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind,vite,nodejs,express&theme=dark" height="40" alt="Web Stack" /> |
+| **Android & Mobile** | <img src="https://skillicons.dev/icons?i=kotlin,java,flutter,dart,androidstudio,gradle&theme=dark" height="40" alt="Mobile Stack" /> |
+| **Windows & Systems** | <img src="https://skillicons.dev/icons?i=cpp,rust,python,cmake,visualstudio,vscode&theme=dark" height="40" alt="Systems Stack" /> |
+| **Web & Backend** | <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind,vite,nodejs,express,mongodb,firebase&theme=dark" height="40" alt="Web and Backend Stack" /> |
+| **DevOps & Tooling** | <img src="https://skillicons.dev/icons?i=docker,git,github,linux,postman&theme=dark" height="40" alt="DevOps and Tooling" /> |
 ---
 
 ## 📈 GitHub Stats
